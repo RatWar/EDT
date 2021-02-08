@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ba095176-aaf2-4c03-adb5-d98c6603e1df">
+  <producedTypes>
+    <refType typeId="0b6be660-a49a-4ade-b44c-3253401397fb" valueTypeId="ced4612e-5549-4939-9fea-5e6ae9536ddc"/>
+    <listType typeId="98b68e35-6fc2-4a93-bfaa-68431a052a1d" valueTypeId="5e223bc4-306f-4269-a767-4e9cf98a76bd"/>
+    <objectType typeId="8e4ea123-061a-4bc1-86ef-9b6cc25611f1" valueTypeId="9390bf2c-7551-43b6-a97d-2acbdb9a53b7"/>
+    <managerType typeId="c2a69a93-f85d-47e6-8d97-6fb63f52d698" valueTypeId="40ef6bd5-e6b1-414f-8315-6f8036e3652b"/>
+    <recordManagerType typeId="c64445f1-e9b2-4bb9-816a-06b8d4e6b5ce" valueTypeId="c9345c44-c047-45df-ab67-92c92065145f"/>
+    <recordSetType typeId="837e8d1d-fbfb-46ed-9743-a491f318f687" valueTypeId="cfc6e476-6f49-4710-b7a6-9bfcac1dc0cb"/>
+    <recordType typeId="96af2048-0932-4010-8971-22fc376dce3d" valueTypeId="5226f7cb-ff50-4a1f-bdb5-e189d4c0e63e"/>
+    <recordKeyType typeId="27a01fc4-b78e-41a1-88d2-e2ad7be547fb" valueTypeId="cf9e1bef-9134-4589-be42-5a6298aa5408"/>
+  </producedTypes>
+  <name>registrTEMP_documents_debug_tt</name>
+  <parentDataSource>ExternalDataSource.PostgreSQL63</parentDataSource>
+  <nameInDataSource>registrTEMP.documents.debug_tt</nameInDataSource>
+  <keyFields>ExternalDataSource.PostgreSQL63.Table.registrTEMP_documents_debug_tt.Field.id</keyFields>
+  <unfilledParentValue xsi:type="core:UndefinedValue"/>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExternalDataSource.PostgreSQL63.Table.registrTEMP_documents_debug_tt.Field.id</inputByString>
+  <editType>InDialog</editType>
+  <tableFields uuid="7531f196-bbe2-42e4-8f2d-ad48c5d06ceb">
+    <name>id_doc</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>id_doc</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="f508ea44-211a-4095-9ab8-effe6e47499c">
+    <name>id_hist</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>id_hist</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="fe192201-2435-40da-a196-1e94e8ecf4fe">
+    <name>uuid_doc</name>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <nameInDataSource>uuid_doc</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="b5cf3cd1-74c6-473b-8d89-09ba7668ef26">
+    <name>status</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>status</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="f0126103-d990-4d4e-9731-5e28c1c4bfc6">
+    <name>d_</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>d_</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="69e4a4e4-7811-4cda-8afe-26713d706805">
+    <name>stage</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>stage</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="9dcf3c55-36cf-4c63-b02d-b87cf95233b0">
+    <name>id</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>id</nameInDataSource>
+  </tableFields>
+</mdclass:Table>

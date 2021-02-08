@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="51e7d7ba-567f-45ce-a72e-405902579f8a">
+  <producedTypes>
+    <objectType typeId="16370af1-8e9f-4619-8f7e-69b61b8bb957" valueTypeId="e16bcdf4-4b8d-4952-b807-e5068981623d"/>
+    <managerType typeId="f41bc6a3-adfb-426b-b2fd-3592d335ac35" valueTypeId="bc9e2cbd-3bd2-4f8b-a342-5c1db976afec"/>
+  </producedTypes>
+  <name>ОИМЦ_РазмерБаз1С</name>
+  <synonym>
+    <key>ru</key>
+    <value>Размер баз1 С</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ОИМЦ_РазмерБаз1С.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="774ae96a-3e97-4ab7-a72d-885821ecb9cc">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f407c205-24fb-45ed-9995-18e9f1c3dcac">
+  <producedTypes>
+    <objectType typeId="cf7ef734-9442-43fc-ab89-a926a88fc8dc" valueTypeId="b3215b1a-18bc-4be3-a57e-9b94b076c5b2"/>
+    <managerType typeId="62a4ac45-f0c6-4779-b8d7-467e965d4f73" valueTypeId="7af4bf3a-5964-4f34-80a2-9f1a495a746a"/>
+  </producedTypes>
+  <name>ОИМЦ_Вызовы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вызовы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ОИМЦ_Вызовы.Form.Форма</defaultForm>
+  <attributes uuid="9561d44d-a286-43a1-b8df-96e0598d9052">
+    <name>ДатаНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="6b93a043-8870-4c21-8011-b743001efbe8">
+    <name>ДатаОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="677c18da-9ed2-43d0-829b-66f6e3f9042c">
+    <name>Длительность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Длительность</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <tabularSections uuid="8b1d0d47-06fe-4f19-95f6-4157d7bd66b0">
+    <producedTypes>
+      <objectType typeId="b339d34c-21c0-4055-8700-df7857a8cdd6" valueTypeId="2e593025-f7ea-47b5-a27d-bfa110b322ee"/>
+      <rowType typeId="ef1082aa-ab4b-474e-8899-fe578fa224b3" valueTypeId="f205549b-ed29-4e60-b81f-351529bdfb03"/>
+    </producedTypes>
+    <name>ТаблицаВызовов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица вызовов</value>
+    </synonym>
+    <attributes uuid="5dfbbc94-109e-4905-8d52-3f81589b0c6a">
+      <name>Ид</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ид</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="2eb1507c-7f97-44ec-b83e-80c6961c8aaa">
+      <name>Длительность</name>
+      <synonym>
+        <key>ru</key>
+        <value>Длительность</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="d837dd02-4ef2-4504-993a-398509d05c0e">
+      <name>Команда</name>
+      <synonym>
+        <key>ru</key>
+        <value>Команда</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="de2ffbac-b5a8-44a1-8e33-d9d0ba4e7c18">
+      <name>ДатаВремя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата время</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>21</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="a29b5c63-6eb0-49e2-84df-601c98c6d47c">
+      <name>Логин</name>
+      <synonym>
+        <key>ru</key>
+        <value>Логин</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>36</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="9ae72a58-5910-410e-b042-9576765799a6">
+      <name>Расшифровка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Расшифровка</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+  </tabularSections>
+  <forms uuid="4b92670b-f77d-4916-bf3c-a6218ad34983">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

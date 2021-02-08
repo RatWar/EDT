@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3b78a418-e52f-4287-8e46-9cfb47cb4c19">
+  <producedTypes>
+    <objectType typeId="41ac177c-f4f3-4486-b58d-aba025b04c70" valueTypeId="017c724f-7032-480b-b6ab-6fba20495f92"/>
+    <managerType typeId="a5c11a1b-fe7b-4367-90d0-7879d3050972" valueTypeId="83748561-b741-4546-87de-4f0edfa1fee9"/>
+  </producedTypes>
+  <name>ОИМЦ_ДлительныеВызовы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Длительные вызовы (из log_ws)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ОИМЦ_ДлительныеВызовы.Form.ФормаОтчета</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <explanation>
+    <key>ru</key>
+    <value>Отчет предназначен для анализа за период.</value>
+  </explanation>
+  <attributes uuid="2784dbaf-bce3-443f-a4d0-dad393029a36">
+    <name>ДатаНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="076d5fa9-9f79-4f35-94b7-781c3addf606">
+    <name>ДатаОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="cb4b914d-7159-4b95-b218-76ea066ad524">
+    <name>Длительность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Длительность</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <forms uuid="fe39eddf-d18d-41ac-86d9-e719dd4bf1aa">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="3373f3ad-b9fb-4b5a-98d5-a7f98adab1f5">
+    <name>СписокВызовов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список вызовов</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

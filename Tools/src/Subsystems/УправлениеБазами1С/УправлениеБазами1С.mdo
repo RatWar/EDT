@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="233405fa-41c5-43af-abd1-0198bd61c69b">
+  <name>УправлениеБазами1С</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление базами 1С</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.СправочникПВХКоннекторЛево</picture>
+  </picture>
+  <content>DataProcessor.ОИМЦ_Обновление</content>
+  <content>Report.ОИМЦ_РазмерБаз1С</content>
+  <content>Catalog.ОИМЦ_ИнформационныеБазы1С</content>
+</mdclass:Subsystem>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataSource xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b2351133-c6ba-4fd0-be7c-065e828be598">
+  <producedTypes>
+    <managerType typeId="8b230ab3-d1a9-4b28-bed6-c827391ccf9a" valueTypeId="6e0562a1-146b-4e5f-a255-7eed69f4690f"/>
+    <tablesManagerType typeId="1f4c9e4b-0a4a-4067-98ad-480efa701832" valueTypeId="980ce6da-177d-496e-a268-890d882f3747"/>
+    <cubesManagerType typeId="695e6dee-3276-44b1-a26e-62159e5d7fe0" valueTypeId="6abf67ce-8942-4267-971d-0475496e1b7a"/>
+  </producedTypes>
+  <name>PostgreSQL63</name>
+  <synonym>
+    <key>ru</key>
+    <value>Postgre SQL63</value>
+  </synonym>
+  <tables>ExternalDataSource.PostgreSQL63.Table.registrTEMP_documents_debug_tt</tables>
+</mdclass:ExternalDataSource>

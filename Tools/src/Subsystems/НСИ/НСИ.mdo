@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="89c16c2a-178d-49d0-93cf-096f2e59f467">
+  <name>НСИ</name>
+  <synonym>
+    <key>ru</key>
+    <value>НСИ</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Информация32</picture>
+  </picture>
+  <content>Catalog.ОИМЦ_ИнформационныеБазы1С</content>
+  <content>InformationRegister.ОИМЦ_СведенияИБ</content>
+  <content>Catalog.ОИМЦ_63_Номенклатура</content>
+  <content>Catalog.ОИМЦ_63_Организации</content>
+  <content>Catalog.ОИМЦ_63_ИсточникиФинансирования</content>
+  <content>Catalog.ОИМЦ_63_Склады</content>
+  <content>Catalog.ОИМЦ_63_МестаХранения</content>
+  <content>DataProcessor.ОИМЦ_Тест</content>
+</mdclass:Subsystem>

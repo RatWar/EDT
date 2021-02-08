@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bb687cd4-fd72-4355-9e2a-c84f7ede1f71">
+  <producedTypes>
+    <objectType typeId="595a8990-8a1f-4d46-912c-d3bdd7bbd9f6" valueTypeId="2a216289-7e41-4761-9d57-906dd2fb0546"/>
+    <managerType typeId="0aee748f-2da8-468d-9fcd-039483e80b54" valueTypeId="e7fd7eb8-9d0a-4bd8-8338-34ed6c732c54"/>
+  </producedTypes>
+  <name>ОИМЦ_ВосстановитьДокумент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Восстановить документ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ОИМЦ_ВосстановитьДокумент.Form.Форма</defaultForm>
+  <attributes uuid="0a54111b-dc0d-4ea1-86e4-bf1390ec9796">
+    <name>ДатаНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="e5fcbbaf-4915-40f1-b072-6ad175574ab0">
+    <name>ДатаОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="f7e42a1f-413f-41bd-940b-92dd892e6022">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОИМЦ_63_Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <tabularSections uuid="c3169889-ef80-4438-91b1-3ffceaeeee88">
+    <producedTypes>
+      <objectType typeId="e01fa3ea-eacb-4f16-a639-623a987ed6e6" valueTypeId="0df18bf0-f1ca-48bd-8dd8-02b2e4d74f6e"/>
+      <rowType typeId="b9fe02fd-e714-45d5-9da0-072522aba85d" valueTypeId="2948b5e0-a4a4-44d5-adba-778349b867c3"/>
+    </producedTypes>
+    <name>ТаблицаДокументов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица документов</value>
+    </synonym>
+    <attributes uuid="ae864643-74be-413a-bb88-e3628c3e2f74">
+      <name>Ид</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ид</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="5ae27383-a6fa-45e1-897f-b7b015769eac">
+      <name>Документ</name>
+      <synonym>
+        <key>ru</key>
+        <value>Документ</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="056c389e-2382-4a7a-86e3-7ee4c70f294f">
+      <name>Номер</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="fcad70a3-e986-442a-8213-d749f6f963df">
+      <name>Дата</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="94bd00bf-0d5c-48c0-af3d-65f0b0a7e5ce">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

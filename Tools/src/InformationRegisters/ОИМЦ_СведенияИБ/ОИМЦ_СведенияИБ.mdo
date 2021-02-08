@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="be9e797c-fb32-4a13-90b2-6f68aac991c1">
+  <producedTypes>
+    <selectionType typeId="95140b56-6a3f-495e-ab79-2e14cb4f0dec" valueTypeId="52e2f713-4b84-476d-8b06-94a37a27c075"/>
+    <listType typeId="e734f9dd-ca9e-4049-a236-df7702515cdd" valueTypeId="5906cab9-fe59-4608-8daa-bb28de2d6586"/>
+    <managerType typeId="2168ff43-2485-438b-8ecf-b50790716b2a" valueTypeId="cf66fe1c-3a0c-4f6d-b76b-a2f59883457e"/>
+    <recordSetType typeId="e94fb6f8-289c-4efd-92bd-527ae9e03b55" valueTypeId="2f08a5e8-3a05-49e8-8f8e-405ca11918ca"/>
+    <recordKeyType typeId="9143335c-3c47-46c0-b39b-7477bc95a17a" valueTypeId="e490ff68-feb1-4c0e-a447-dc39ba59b79c"/>
+    <recordType typeId="1dd0bdc5-942c-4a77-964a-a443b66467cc" valueTypeId="f7c13630-e337-4a5e-9b33-afb44f1f37e6"/>
+    <recordManagerType typeId="8761018c-0e27-477c-95cb-856c836d1ca8" valueTypeId="8f3c67f3-963a-452f-8585-57a207f59f2a"/>
+  </producedTypes>
+  <name>ОИМЦ_СведенияИБ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сведения ИБ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="9df551db-573c-4dbe-940c-faf8c634b704">
+    <name>Версия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b6a83c63-45e3-4883-95ac-23c89e3461e9">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="2df50158-05b2-4e21-8462-bda5a29f7141">
+    <name>ИБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИБ</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОИМЦ_ИнформационныеБазы1С</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

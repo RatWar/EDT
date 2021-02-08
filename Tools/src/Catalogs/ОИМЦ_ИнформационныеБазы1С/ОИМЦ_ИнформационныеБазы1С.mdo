@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c00180af-a3f3-48d1-b59a-bb70b7b82a1a">
+  <producedTypes>
+    <objectType typeId="f82a7740-4775-4be1-b841-2d4a17969301" valueTypeId="68364178-707a-4524-b87b-4b348eca6ae7"/>
+    <refType typeId="8d0e932c-2034-4e79-8002-041832462d33" valueTypeId="5db27d78-41ca-42eb-a724-0d6002207de7"/>
+    <selectionType typeId="bc416655-74c9-4c4f-a5af-07d1ef3540c6" valueTypeId="36b5daa6-4da4-489b-b32f-565441c1d4ba"/>
+    <listType typeId="c348a23a-8ed6-4e20-bb7b-5efbd6a02a79" valueTypeId="c4852615-facc-4c05-9668-71b5a2ef4fc1"/>
+    <managerType typeId="18679410-04e2-48fe-a7b0-27830233ef8f" valueTypeId="ebc789d4-bd84-4b59-b294-a09e2ded2e8d"/>
+  </producedTypes>
+  <name>ОИМЦ_ИнформационныеБазы1С</name>
+  <synonym>
+    <key>ru</key>
+    <value>Информационные базы 1С</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ОИМЦ_ИнформационныеБазы1С.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ОИМЦ_ИнформационныеБазы1С.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="09ed7fdc-3bbe-44cc-9f0c-ecad99353701">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3f7dcb86-0635-44a1-b424-d1182d733308">
+    <name>ЛогинАдминистратора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Логин администратора</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>32</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a2747a83-8fa0-4c27-adf7-e56dd6760b5d">
+    <name>ПарольАдминистратора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль администратора</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>32</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="576849cd-36fe-4c48-9cab-c082cfd00127">
+    <name>ЛогинДляОбработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Логин для обработки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>32</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ce7142ee-e553-4c46-967c-fbfea8921581">
+    <name>ПарольДляОбработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль для обработки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>32</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="555ca0c1-63cc-4612-a37c-94fa41e4ebc8">
+    <name>ЭтоРабочая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это рабочая</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f6a24410-f8d3-4a3d-a9c0-be038a343668">
+    <name>ЭтоФайловая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это файловая</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

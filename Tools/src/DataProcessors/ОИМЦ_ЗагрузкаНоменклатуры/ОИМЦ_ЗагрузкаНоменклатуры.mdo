@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0fc04097-edc1-4e41-a207-91f93a6d8a39">
+  <producedTypes>
+    <objectType typeId="87563581-5999-421d-b2fe-f7e413bce437" valueTypeId="21dcabfc-e880-4a14-9386-7e675b9d73af"/>
+    <managerType typeId="492a9606-6e43-4d6f-9166-ff6fee1cbaac" valueTypeId="0d4cd1d4-76b5-4bff-bc9c-eb88dd66b208"/>
+  </producedTypes>
+  <name>ОИМЦ_ЗагрузкаНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка номенклатуры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:DataProcessor>

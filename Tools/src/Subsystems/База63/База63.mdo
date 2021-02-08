@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="358afed9-3591-44f3-9351-8e54232a31ce">
+  <name>База63</name>
+  <synonym>
+    <key>ru</key>
+    <value>База на 63</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.СправочникПВХКоннекторЛево</picture>
+  </picture>
+  <content>ExternalDataSource.PostgreSQL63.Table.registrTEMP_documents_debug_tt</content>
+  <content>Report.ОИМЦ_ДлительныеВызовы</content>
+  <content>DataProcessor.ОИМЦ_Вызовы</content>
+  <content>Report.ОИМЦ_ДвижениеТоваров</content>
+  <content>Report.ОИМЦ_Остатки</content>
+  <content>DataProcessor.ОИМЦ_ЗагрузкаНоменклатуры</content>
+  <content>Report.ОИМЦ_КарточкаТовара</content>
+  <content>Document.ОтпускТоваровВОтделение</content>
+  <content>DataProcessor.ОИМЦ_ВосстановитьДокумент</content>
+</mdclass:Subsystem>
